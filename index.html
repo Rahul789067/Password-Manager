@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PasswordManager</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+   <nav>
+    <div class="passx">passx</div>
+   <ul>
+    <li>Home</li>
+    <li>Contact</li>
+    <li>About</li>
+    <li>Help</li>
+   </ul>
+   </nav>
+   <div class="container">
+    <h1>Your Password Manager</h1>
+    <h4>We're delighted to have you here, and we understand the importance of keeping your digital life secure.Explore our user-friendly interface, powerful features, and cutting-edge security protocols designed to safeguard your valuable information.
+    Feel free to use this website to store your passwords!! (To see the password: Right click-> Inspect ->Applications)
+    </h4>
+  
+   <table>
+    <tr>
+        <th>Website </th><br>
+        <th>Username </th>
+        <th>Password</th>
+        <th>Delete</th>
+     </tr>
+     
+   </table>
+   <h3>Add a Password</h3>
+  <form action="/submit" method="post">
+    <label for="website">Website :</label>
+    <input type="text" name="website" id="website" required>
+    <br><br>
+    <label for="Username">Username :</label>
+    <input type="text" name="Username" id="username" required>
+    <br><br>
+    <label for="Password">Password :</label>
+    <input type="password" name="Password" id="password" required>
+    <br><br>
+    <button class="Add" type="submit">Add Details</button>
+  </form>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
